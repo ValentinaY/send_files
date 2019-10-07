@@ -1,0 +1,10 @@
+universe = standard
+executable = /nfs/data/spaguetti
+log = spaguetti_5000.log
+output = spaguetti.out
+error = spaguetti.err
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = a_1000,b_1000
+Arguments = 1000 a_1000 b_1000 c_1000
+Queue
